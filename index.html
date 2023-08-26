@@ -5,13 +5,21 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
   <title>Zach Vollink | Front End Engineer</title>
-  <meta name="description" content="I’m currently a Front End Engineer in Boulder, Colorado, working hard to teach kids how to code in JavaScript.">
+  <meta name="description" content="I'm currently a Frontend Engineer in Lake City, Michigan, working hard to teach kids how to code in JavaScript.">
   <meta name="author" content="Zach Vollink">
 
   <link rel="stylesheet" href="">
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!-- HTMX -->
+  <script src="https://unpkg.com/htmx.org@1.9.5"></script>
 </head>
 
 <body>
-  <script src=""></script>
+  I am Zach Vollink
+
+  <button hx-post="/hello.html" hx-swap="outerHTML">
+    Click Me
+  </button>
 </body>
 </html>
